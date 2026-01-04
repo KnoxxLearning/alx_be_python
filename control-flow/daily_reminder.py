@@ -22,9 +22,9 @@ match priority:
 
 # Modify reminder based on time sensitivity
 if time_bound == "yes":
-    message += " that requires immediate attention today!"
+    message += "Reminder: that requires immediate attention today!"
 else:
-    message += ". Consider completing it when you have free time."
+    message += "Reminder: Consider completing it when you have free time."
 
 # Output the reminder
 print(message)
