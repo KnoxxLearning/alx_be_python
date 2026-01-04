@@ -21,7 +21,7 @@ match priority:
         message = f"Note: '{task}' is a low priority task"
     case "customized reminder":
         if time_bound == "yes":
-            message += "Reminder: that requires immediate attention today!"
+            print("Reminder: that requires immediate attention today!")
         else:
             message += "Reminder: Consider completing it when you have free time."
 
