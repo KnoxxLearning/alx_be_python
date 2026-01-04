@@ -1,0 +1,7 @@
+for number in range(1, 6):
+    print(number)
+
+message = "Hello, world!"
+
+for character in message:
+  print(character)
